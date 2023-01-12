@@ -1,0 +1,17 @@
+class Avenger{
+    public void Superpower(){
+        System.out.println("Save the World");
+    }
+}
+class cap extends Avenger{
+    public void power(){
+        System.out.println("Uses the sheild");
+    }
+}
+class main {
+    public static void main(String[] args) {
+    cap ws=new cap();
+        ws.display();
+        ws.Superpower();
+    }
+}
